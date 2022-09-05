@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+X:/apps/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeGenericSystem.cmake
+X:/apps/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake
+X:/apps/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake
+X:/apps/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake
+X:/apps/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/ExternalProject-download.cmake.in
+X:/apps/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/ExternalProject.cmake
+X:/apps/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/Platform/Windows.cmake
+X:/apps/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake
+X:/apps/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/RepositoryInfo.txt.in
+X:/projects/riverpod_sample/build/windows/_deps/sqlite3-subbuild/CMakeFiles/3.22.22040401-MSVC_2/CMakeSystem.cmake
+X:/projects/riverpod_sample/build/windows/_deps/sqlite3-subbuild/CMakeLists.txt
+X:/projects/riverpod_sample/build/windows/_deps/sqlite3-subbuild/sqlite3-populate-prefix/tmp/sqlite3-populate-cfgcmd.txt.in

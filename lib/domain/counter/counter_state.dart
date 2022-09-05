@@ -1,4 +1,4 @@
-import 'package:equatable/equatable.dart';
+part of 'counter_bloc.dart';
 
 class CounterState extends Equatable {
   final int value;
@@ -20,4 +20,6 @@ class CounterState extends Equatable {
 
   @override
   List<Object> get props => [value];
+
+  static CounterState get initial => const CounterState();
 }

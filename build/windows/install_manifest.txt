@@ -1,0 +1,11 @@
+X:/projects/riverpod_sample/build/windows/runner/Debug/data/icudtl.dat
+X:/projects/riverpod_sample/build/windows/runner/Debug/flutter_windows.dll
+X:/projects/riverpod_sample/build/windows/runner/Debug/sqlite3_flutter_libs_plugin.dll
+X:/projects/riverpod_sample/build/windows/runner/Debug/sqlite3.dll
+X:/projects/riverpod_sample/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+X:/projects/riverpod_sample/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+X:/projects/riverpod_sample/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+X:/projects/riverpod_sample/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+X:/projects/riverpod_sample/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+X:/projects/riverpod_sample/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+X:/projects/riverpod_sample/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

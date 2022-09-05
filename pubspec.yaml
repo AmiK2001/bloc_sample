@@ -1,4 +1,4 @@
-name: riverpod_testing
+name: riverbloc_testing
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -44,6 +44,9 @@ dependencies:
   sqlite3_flutter_libs: ^0.5.0
   path_provider: ^2.0.0
   path: ^1.8.2
+  bloc: ^8.1.0
+  bloc_test: ^9.1.0
+  flutter_bloc: ^8.1.1
 
 dev_dependencies:
   flutter_test:

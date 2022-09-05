@@ -1,4 +1,4 @@
-import 'package:riverpod_testing/data/log/log_database.dart';
+import 'package:riverbloc_testing/data/log/log_database.dart';
 
 class LogRepository {
   final _db = LogDatabase();

@@ -1,7 +1,7 @@
 import 'package:drift/drift.dart';
 import 'package:logger/logger.dart';
-import 'package:riverpod_testing/data/log/log_database.dart' as log_db;
-import 'package:riverpod_testing/data/log/log_repository.dart';
+import 'package:riverbloc_testing/data/log/log_repository.dart';
+import 'package:riverbloc_testing/data/log/log_database.dart' as log_db;
 
 class Log {
   static bool logVerbose = true;

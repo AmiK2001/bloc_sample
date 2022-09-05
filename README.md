@@ -1,4 +1,4 @@
-# riverpod_testing
+# riverbloc_testing
 
 A new Flutter project.
 

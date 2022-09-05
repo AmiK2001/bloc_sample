@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:riverpod_testing/app/app.dart';
-import 'package:riverpod_testing/ui/counter/counter.dart';
+import 'package:riverbloc_testing/app/app.dart';
+import 'package:riverbloc_testing/ui/counter/counter.dart';
 
 void main() {
   testWidgets('update the UI when incrementing the state', (tester) async {
