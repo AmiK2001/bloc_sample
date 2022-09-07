@@ -1,25 +1,10 @@
 part of 'counter_bloc.dart';
 
-class CounterState extends Equatable {
-  final int value;
+@freezed
+class CounterState with _$CounterState {
+  const factory CounterState({
+    required int value,
+  }) = _CounterState;
 
-  const CounterState({
-    this.value = 0,
-  });
-
-  CounterState copyWith({
-    int? value,
-  }) {
-    return CounterState(
-      value: value ?? this.value,
-    );
-  }
-
-  @override
-  bool get stringify => true;
-
-  @override
-  List<Object> get props => [value];
-
-  static CounterState get initial => const CounterState();
+  factory CounterState.initial() => const CounterState(value: 0);
 }

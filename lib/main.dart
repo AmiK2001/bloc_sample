@@ -1,7 +1,13 @@
+import 'package:bloc_testing/app/app.dart';
+import 'package:bloc_testing/app/providers.dart';
 import 'package:flutter/material.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:riverbloc_testing/app/app.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main(List<String> args) {
-  runApp(const ProviderScope(child: App()));
+  runApp(
+    MultiBlocProvider(
+      providers: providers,
+      child: const App(),
+    ),
+  );
 }

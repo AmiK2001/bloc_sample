@@ -1,6 +1,6 @@
 {
-    "name": "riverpod_testing",
-    "short_name": "riverpod_testing",
+    "name": "bloc_testing",
+    "short_name": "bloc_testing",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

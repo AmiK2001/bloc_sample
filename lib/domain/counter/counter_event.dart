@@ -1,5 +1,7 @@
 part of 'counter_bloc.dart';
 
-abstract class CounterEvent {}
-
-class CounterIncrementPressed extends CounterEvent {}
+@freezed
+class CounterEvent with _$CounterEvent {
+  const factory CounterEvent.counterIncrementPressed() =
+      CounterIncrementPressed;
+}

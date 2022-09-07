@@ -1,15 +1,11 @@
-import 'package:drift/drift.dart';
 import 'package:logger/logger.dart';
-import 'package:riverbloc_testing/data/log/log_repository.dart';
-import 'package:riverbloc_testing/data/log/log_database.dart' as log_db;
 
 class Log {
-  static bool logVerbose = true;
-  static final _logRepository = LogRepository();
-
   static final log = Logger(
     printer: LogfmtPrinter(),
   );
+
+  static bool logVerbose = true;
 
   static void d(
     String tag,
@@ -76,15 +72,6 @@ class Log {
         if (error != null) "error": error,
         if (stackTrace != null) "stackTrace": stackTrace,
       },
-    );
-
-    _logRepository.addLog(
-      log_db.LogsCompanion(
-        time: Value(dateTime),
-        level: Value(level.name),
-        tag: Value(tag),
-        message: Value(message.toString()),
-      ),
     );
   }
 }

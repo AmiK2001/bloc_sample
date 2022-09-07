@@ -1,14 +1,16 @@
 import 'package:bloc/bloc.dart';
-import 'package:equatable/equatable.dart';
-import 'package:riverbloc_testing/core/log/log.dart';
+import 'package:bloc_testing/core/log/log.dart';
+import 'package:freezed_annotation/freezed_annotation.dart';
 
-part 'counter_event.dart';
 part 'counter_state.dart';
+part 'counter_event.dart';
+
+part 'counter_bloc.freezed.dart';
 
 const _tag = "CounterBloc";
 
 class CounterBloc extends Bloc<CounterEvent, CounterState> {
-  CounterBloc() : super(CounterState.initial) {
+  CounterBloc() : super(CounterState.initial()) {
     on<CounterIncrementPressed>(
       (event, emit) => emit(
         state.copyWith(
@@ -18,8 +20,16 @@ class CounterBloc extends Bloc<CounterEvent, CounterState> {
     );
   }
 
-  void increment() {
-    add(CounterIncrementPressed());
+  @override
+  void onChange(Change<CounterState> change) {
+    super.onChange(change);
+    Log.d(_tag, change);
+  }
+
+  @override
+  void onError(Object error, StackTrace stackTrace) {
+    Log.d(_tag, '$error, $stackTrace');
+    super.onError(error, stackTrace);
   }
 
   @override
@@ -29,20 +39,12 @@ class CounterBloc extends Bloc<CounterEvent, CounterState> {
   }
 
   @override
-  void onChange(Change<CounterState> change) {
-    super.onChange(change);
-    Log.d(_tag, change);
-  }
-
-  @override
   void onTransition(Transition<CounterEvent, CounterState> transition) {
     super.onTransition(transition);
     Log.d(_tag, transition);
   }
 
-  @override
-  void onError(Object error, StackTrace stackTrace) {
-    Log.d(_tag, '$error, $stackTrace');
-    super.onError(error, stackTrace);
+  void increment() {
+    add(const CounterEvent.counterIncrementPressed());
   }
 }

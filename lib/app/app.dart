@@ -1,5 +1,5 @@
+import 'package:bloc_testing/ui/counter/counter.dart';
 import 'package:flutter/material.dart';
-import 'package:riverbloc_testing/ui/counter/counter.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
